@@ -1,0 +1,234 @@
+1. What is the command to add write permissions for a file for the group members?
+A. chmod +g
+B. chmod grp+wrt
+C. chmod g+w
+D. chmod -w -g
+Answer C
+
+
+
+2. What does the command whoami print?
+A. current user name
+B. prints your sur-name
+C. prints system's name
+D. names of all the users currently logged in
+Answer: A
+
+
+
+3. Identify the correct regular expression matching the below description:
+Beginning of the string, followed by any lowercase letter, number, an underscore or a hyphen. Make sure that the string has at least 3 characters but not more than 16. End of the string.
+
+A. /^[a-z][0-9_-]{3,16}/
+
+B. /[a-z0-9_-]{3,16}$/
+
+C. /^[a-z0-9_-]{3,16}$/
+
+D. /[a-z0-9_-]{3,16}/
+
+Answer C
+
+
+
+
+
+4. What is Segmentation Fault?
+A. When OS fails to allocate proper segments
+B. When a process tries to access a file from secondary storage
+C. When a process tries to access memory outside it's allocated area
+D. When segment allocated to process is zero
+
+Answer C
+
+
+
+5. What is the unique identification for every file in a hard disk?
+A. adr_id
+B. inode number
+C. file qualifier
+D. file identifier
+Answer: B
+
+
+
+
+6. what are the important states of a linux based system?
+A. Roaming, Running, Sleep (wait)
+B. Running, Dead (permanent sleep), Stop (Suspend)
+C. Running, Sleep (wait), Stop (Suspend)
+D. Running, Ready, Sleep (wait), Dead
+Answer C
+
+
+
+
+7. In a linux OS environment, can two tasks communicate using a single thread?
+Select the option with the appropriate explanation.
+A. No, threads are local to tasks/processes
+B. Yes if both the tasks are children of same parent
+C. Yes, if threads are globally created
+D. Yes, if thread uses one of the IPC mechanisms
+Answer A
+
+
+
+8. od command in linux helps display contents of a file in ____  
+A. octal format
+B. ASCII format
+C. hexadecimal format
+D. various formats
+Answer : D
+
+
+
+
+9. What happens to a process whose parent is dead?
+A. it also gets killed because related process have to die together
+B. some other process adopts the process as it becomes an orphan
+C. it becomes a zombie and goes into Z state
+D. it never dies even after system is shutdown as it goes into limbo
+Answer B
+
+
+
+
+
+10. The lowest available number given to an open file by a process is
+ A. file desciptor
+ B. file number
+ C. file identifier
+ D. file priority
+Answer : A
+
+
+
+
+
+11. If John's system has an username as john and an ip address as192.168.1.54, which command will hell me connect & use john's system remotely?
+
+A. login 192.168.1.54@john
+
+B. ssh john@192.168.1.54
+
+C. login john@192.168.1.54
+
+D. ssh 192.168.1.54@john
+
+Answer: B
+
+
+12. What is whereis command used to locate?
+A. binary file
+B. source file
+C. manual page
+D. all of the options
+Answer D
+
+
+13. Which of the following is not a correct way to define variable in shell scripts?
+A. VAR_FIRST = Hello
+B. VAR_FIRST=Hello
+C. VAR_INTE=12
+D. VAR=VAR
+Answer A
+
+
+14. which command will help us retreive the list of commands previously used on the terminal?
+A. fetch
+
+B. retrieve
+
+C. past
+
+D. history
+
+Answer: D
+
+
+
+
+15. which command helps me find information about dns owner of google.com?
+A. whois google.com
+
+B. own google.com
+
+C. info google.com
+
+D. find google.com
+
+Answer: A
+
+
+
+
+16.Within the vi editor in command mode, how would you copy 3 lines of code?
+
+A. copy3
+
+B. 3yy
+
+C. 3copy
+
+D. yyy
+
+Answer: B
+
+
+
+
+17.If you wanted to list all the files with rwxrw-rw- in John's home directory;
+what command would you use?
+
+A. ls /home/john rwxrrw-rw-
+
+B. ls /home/john 766
+
+C. find /home/john -perm 766
+
+D. ls /home/john -user x
+
+Answer: C
+
+
+
+
+18.Which of the following command will create a new file (named fileb) with a different inode name from the original file (named filea)?
+A. ln fileb filea
+
+B. ln filea fileb
+
+C. ln -s filea fileb
+
+D. ln -s fileb filea
+
+Answer: C
+
+
+
+
+19.Which signal will pause the process execution and put it into the background ?
+
+A. SIGPAUSE
+
+B. SIGSTOP
+
+C. SIGBG
+
+D. SIGBACKGROUND
+
+Answer: B
+
+
+
+
+20.If there are two jobs running in the background of a shell, which is the easiest way to fetch both of them into the foreground?
+A. fetch
+
+B. fg
+
+C. jobs
+
+D. get
+
+Answer: B

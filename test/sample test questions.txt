@@ -1,0 +1,144 @@
+1. A file earth.txt has permissions of 0646, what will the command 'chmod o+w earth.txt' do?
+A. it doesn't change anything in the context of file permissions
+B. it gives an error saying permissions are already the same
+C. it gives an error saying permissions can not be changed for others, unless changed for group too.
+D. it removes the write permission for others
+
+
+2. Which of the following OS is built over a Linux kernel
+A. android
+B. ubuntu
+C. raspbian
+D. all of the options are true
+
+
+3. What is most likely output after execution of command 'pkill all'
+ A. kills all the process
+ B. kills all the process with the name starting as 'all'
+ C. shuts the system down
+ D. reboot the system
+
+
+4. What does the command 'sleep 5' do?
+A. puts all the current running process to sleep for 5 minutes
+B. puts all the user processes (except kernel process) to sleep for 5 seconds
+C. puts all process to T state for 5 minutes
+D. puts the current process to sleep for 5 seconds
+
+
+5. permissions for all files & folders in the current directory can be viewed by:
+A. ls -l
+B. list -perm
+C. listperm
+D. perm -list
+
+
+6. Easiest way to give extra name or shortcut for an existing command is
+A. extra
+B. shortcut
+C. alias
+D. pnew
+
+
+7. background processes of a terminal can be brought to the foreground by:
+A. fg
+B. fore
+C. extract
+D. getf
+
+
+8. in a typical running linux system, what states do most processes reside in?
+A. R (run)
+B. S (sleep or wait)
+C. T (stop)
+D. Z (zombie)
+
+
+9. grep command can be used for a lot of functionalities, but it's most direct usage is:
+A. check the list of zombie processes
+B. check the list of open files
+C. search for a pattern in a file
+D. send signals to background processes
+
+
+10. Which option of ps -o gets the parent process id :
+A. ppid
+B. parent
+C. init
+D. pid
+
+
+11. easiest way to display the top 7 lines of a file hello.txt is:
+A. head -7 hello.txt
+B. cat -7 hello.txt
+C. tail -7 hello.txt
+D. top -7 hello.txt
+
+
+12. Which option is most appropriate about 'read' command?
+A. it is used to read a file directly
+B. used to read user inputs
+C. reads the current log states
+D. used to read the information data from the proc
+
+
+13. What happens to a process which gets a SIGSTOP signal
+A. it goes into the background
+B. it's execution is stopped and will start from immediate next instruction when resumed
+C. it goes into T state
+D. all the options are true
+
+
+14. There are 3 gcc installations in a linux system folder. How do we know which one of those will be invoked by default when we use the command 'gcc'
+A. where gcc
+B. invoke gcc
+C. echo $GCC
+D. which gcc
+
+
+15. The three default files opened by a simple launched process are:
+ A. stdin, stdout, stdio
+ B. stdhome, stdlocal, stdglobal
+ C. stdin, stdout, stderr
+ D. stdio, unistd, error
+
+
+16. Which is the simplest way to create empty files?
+A. create zero
+B. empty
+C. touch
+D. ls -o
+
+
+17. A directory contains the following list of files
+FifthBeatle file123 fileb file1 foul false flee
+
+What would be the output when the following command is executed from the terminal?
+ls f?l*
+
+A. file123 fileb file1 foul false
+B. file123 fileb file1 false
+C. file123 fileb file1
+D. fileb file1
+
+
+18. What would be the command if you have to rename a file one.txt to two.txt
+A. rename one.txt two.txt
+B. alias one.txt two.txt
+C. rn one.txt two.txt
+D. mv one.txt two.txt
+
+
+19. Which is the simplest way to test connectivity with a remote computer
+A. use ping command
+B. use whois command
+C. use netstat command
+D. use ifconfig command
+
+
+20. How can you find out that which shell are you using ?
+A. which shell
+B. echo $SHELL
+C. which SHELL
+D. which $SHELL
+
